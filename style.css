@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100;
+  height: auto;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #dff0d8;
+  color: #a09e9f;
+}
+/* css for header*/
+.header {
+  background-color: #333333;
+  padding: 25px 0;
+}
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  flex-basis: 25%;
+  display: inline-block;
+}
+.navbar {
+  flex-basis: 25%;
+}
+.logo a {
+  padding: 20px;
+  display: inline-block;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar ul li a {
+  color: #b4ba8d;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.navbar ul li a form input {
+  border-radius: 30px;
+  padding: 2%;
+  text-align: center;
+}
+.distance {
+  margin: 35px 0;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 500px;
+}
+.flex-box{
+  display: flex;
+  flex-basis: 31%;
+justify-content: space-between;
+}
+.flex-3-column img {
+  width: 350px;
+  height: 450px;
+  box-shadow: 14px 13px 6px 3px rgba(100, 100, 100, 0.349);
+}
+h3 {
+  margin: 15px 0;
+  color: #333333;
+}
+.readmore a {
+  color: rgb(243, 133, 8);
+  text-decoration: none;
+  position: relative;
+}
+p {
+  margin: 15px 0;
+}
+.readmore a::after {
+  font-family: FontAwesome;
+  content: "\f101";
+  position: absolute;
+}
+.flex-half-column {
+  flex: 48%;
+  margin: 35px 8px;
+}
+.flex-half-column img {
+  width: 650px;
+  height: 500px;
+  box-shadow: 14px 13px 6px 3px rgba(100, 100, 100, 0.349);
+}
+h1 {
+  color: black;
+}
+/*footer top*/
+.footer-top {
+  background-color:#3d3d3d;
+  
+}
+.footer-top ul{
+    list-style: none;
+    padding: 13px 0;
+}
+.footer-top ul li a{
+    color: rgb(243, 133, 8);
+    text-decoration: none;
+}
+.footer-top ul li{
+    margin: 0 0 5px 0;
+    padding : 0 0 10px 0;
+}
+#paragraph{
+    color: #b4ba8d;
+    font-size: 25px;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid #b4ba8d;
+     background-color: #dff0d8;
+     padding: 8px;
+     margin: 20px;
+     width: 260px;
+ }
+ span{ font-family: 'Segoe UI';
+    color: white;
+    border: 1px solid #b4ba8d;
+    border-radius: 6px;
+    background-color: #ab402c;
+    padding:5px;
+    text-decoration: none; 
+}
+.footer-bottom{
+    flex-basis: auto;
+    background-color: #232323;
+    color: #979797;
+}
+.copy_right{
+    border: 0px;
+    margin:auto 12px;
+}
+.templete{
+    text-align: right;
+    margin:auto 12px;
+}
+/*mobile friendly*/
+@media(max-width: 767px){
+    .flex-box{
+        flex-direction: column;
+    }
+    .header , .navbar ul{
+        text-align: center;
+    }
+    .navbar ul {
+        justify-content: center;
+
+    }
+    .container{
+       padding: 0 25px;
+    }
+}
